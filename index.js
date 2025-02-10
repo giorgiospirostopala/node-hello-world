@@ -5,7 +5,7 @@
 -2. Scriviamo un file index.js che dovrà stampare nel terminale “Hello World”. 
 Proviamo ad eseguirlo dal terminale stesso usando i comandi di node base.
 
-3. Impostiamo ora uno script “start” in package.json e facciamo in modo di lanciare il nostro script con npm run start
+-3. Impostiamo ora uno script “start” in package.json e facciamo in modo di lanciare il nostro script con npm run start
 
 4. Impostiamo un nuovo script “watch” in package.json che possa essere lanciato con npm run watch e che aggiorni in tempo reale le modifiche ai nostri file. 
 

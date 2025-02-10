@@ -9,7 +9,7 @@ Proviamo ad eseguirlo dal terminale stesso usando i comandi di node base.
 
 -4. Impostiamo un nuovo script “watch” in package.json che possa essere lanciato con npm run watch e che aggiorni in tempo reale le modifiche ai nostri file. 
 
-5. Lanciamolo e proviamo a cambiare il nostro codice in modo che stampi nel terminale “Hello Boolean”. 
+-5. Lanciamolo e proviamo a cambiare il nostro codice in modo che stampi nel terminale “Hello Boolean”. 
 Dovremmo vedere il terminale senza fermare e rilanciare il server.
 
 
@@ -19,4 +19,4 @@ Buon lavoro!
 
 */
 
-console.log("Hello World");
+console.log("Hello Boolean");

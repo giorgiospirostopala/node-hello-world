@@ -27,4 +27,11 @@ const fraseDaTerminale = process.argv;
 
 // Per stampare parole custom dopo "Hello"
 const helloCustom = process.argv[2];
-console.log(`Hello ${helloCustom}`);
+//console.log(`Hello ${helloCustom}`);
+
+// Per evitare l'undefined se non passo argomenti
+const helloCustomFix = process.argv[2] || "Boolean";
+console.log(`Hello ${helloCustomFix}`);
+
+// Per passare frasi senza usare le "" / '' (abbr.)
+console.log(process.argv.slice(2).join(" ") || "Non hai passato argomenti.");

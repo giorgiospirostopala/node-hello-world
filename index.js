@@ -14,9 +14,17 @@ Dovremmo vedere il terminale senza fermare e rilanciare il server.
 
 
 Bonus
-Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”.
+-Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”.
 Buon lavoro!
 
 */
 
 console.log("Hello Boolean");
+
+// Per stampare ogni indice del comando (intero array process.argv[])
+const fraseDaTerminale = process.argv;
+//console.log(fraseDaTerminale);
+
+// Per stampare parole custom dopo "Hello"
+const helloCustom = process.argv[2];
+console.log(`Hello ${helloCustom}`);
